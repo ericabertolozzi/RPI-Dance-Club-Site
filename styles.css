@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400);
+
+body{
+    background: url(pictureicon-textures-patterns-gradients-3-small.png);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.inner_main_menu {
+    margin: 0 auto; 
+    width: 1170px;
+}
+
+.inner_main_menu ul{
+    margin: 0; 
+    padding: 0;
+    padding-top: 25px;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_main_menu ul li{
+    float: none; 
+    display: inline-block;
+}
+
+.inner_main_menu ul li:nth-child(1) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(2) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(3) {
+    float: left;
+}
+
+.inner_main_menu ul li a {
+    color: #262626; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px 20px;
+}
+
+.inner_main_menu ul li a:hover {
+    color: #c92476;
+    background: #262626;
+}
+
+#main_menu {
+    width: 100%; 
+    position: relative;
+    /* background: rgba(8, 0, 0, 0.404); */
+    padding-top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.logo-area {
+    width: 300px;
+    height: 300px; 
+    position: absolute; 
+    left: 50%; 
+    top: 0; 
+    content: "";
+    margin-left: -100px;
+}
