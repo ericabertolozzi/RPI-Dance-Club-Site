@@ -8,6 +8,30 @@ body{
     line-height: 1.5em;
 }
 
+.slicknav_menu {
+    background: #26262600;
+    font-size: 16px;
+    display: none;
+} 
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .inner_main_menu {
+        display: none;
+    }
+}
+
+ul.slicknav_menu {
+    background-color: #262626;
+    top: 0;
+    position: absolute;
+   
+    width: 80%;
+
+}
+
 .inner_main_menu {
     margin: 0 auto; 
     width: 1170px;
