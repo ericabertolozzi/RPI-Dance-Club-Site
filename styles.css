@@ -1,13 +1,26 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:400);
+@import url(https://fonts.googleapis.com/css?family=Nunito&display=swap);
 
 body{
     background: url(pictureicon-textures-patterns-gradients-3-small.png);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     line-height: 1.5em;
 }
 
-.navbar-nav {
-    text-align: right;
+.navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: blueviolet;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.616) !important;
+}
+
+.navbar-brand {
+    color: yellow !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
