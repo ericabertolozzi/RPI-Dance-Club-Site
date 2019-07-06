@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One|PT+Sans&display=swap);
 
 body{
     background: url(pictureicon-textures-patterns-gradients-3-small.png);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     line-height: 1.5em;
 }
@@ -18,7 +18,9 @@ body{
 }
 
 .navbar-brand {
-    color: yellow !important;
+    color: rgb(99, 156, 230) !important;
+    font-family: 'Fugaz One', cursive; 
+    font-size: 26px;
 }
 
 .navbar-nav li a {
