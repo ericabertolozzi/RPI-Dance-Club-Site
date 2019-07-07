@@ -26,3 +26,12 @@ body{
 .navbar-nav li a {
     color: white !important;
 }
+
+.navbar-nav > .active > a {
+    background-color: rgb(129, 178, 241);
+}
+
+.nav-item > a:hover {
+    color: red !important;
+}
+
