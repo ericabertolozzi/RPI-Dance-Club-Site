@@ -9,16 +9,15 @@ body{
 
 nav {
     background: rgba(0, 0, 0, 0);
-    color: purple;
-    margin-right: 50px;
-    margin-top: 15px;
+    /* margin-right: 50px;
+    margin-top: 15px; */
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     color: green;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .nav-link {
@@ -30,6 +29,6 @@ nav {
     color: green;
 }
 
-.nav-item > .active {
-    color: black;
+.navbar-toggler {
+    background: teal;
 }
