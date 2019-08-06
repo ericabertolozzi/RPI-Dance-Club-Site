@@ -1,16 +1,34 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 
 body{
-    /*background: url(pictureicon-textures-patterns-gradients-3-small.png);*/
+    background: url(pictureicon-textures-patterns-gradients-3-small.png);
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
 }
 
-.navbar-nav > .nav-item {
-    color: blue;
+nav {
+    background: rgba(0, 0, 0, 0);
+    color: purple;
+    margin-right: 50px;
+    margin-top: 15px;
 }
 
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: green;
+    margin-left: 50px;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.navbar a:hover {
+    color: green;
+}
 
 /* .navbar-nav > li {
     padding-left: 20px;
@@ -20,7 +38,7 @@ body{
 
 .navbar-brand {
     font-family: 'Raleway', cursive; 
-    font-size: 20px;
+    
 }
 
 
