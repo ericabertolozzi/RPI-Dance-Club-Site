@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 
 body{
-    background: url(pictureicon-textures-patterns-gradients-3-small.png);
+    /*background: url(pictureicon-textures-patterns-gradients-3-small.png);*/
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-link {
-    color: black;
+    color: hotpink;
 }
 
 
@@ -30,27 +30,6 @@ nav {
     color: green;
 }
 
-/* .navbar-nav > li {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: blueviolet;
+.nav-item > .active {
+    color: black;
 }
-
-.navbar-brand {
-    font-family: 'Raleway', cursive; 
-    
-}
-
-
-.navbar-nav > .active > a {
-    color: rgb(245, 90, 232) !important;
-}
-
-.nav-item > a:hover {
-    color: rgb(245, 90, 232) !important;
-}
-
-.navbar-toggler {
-    background-color: rgb(129, 178, 241) !important;
-} */
-
