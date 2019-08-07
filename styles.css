@@ -8,7 +8,7 @@ body{
 }
 
 nav {
-    background: rgba(0, 0, 0, 0);
+    background: gray;
     /* margin-right: 50px;
     margin-top: 15px; */
 }
@@ -20,15 +20,19 @@ nav {
     /* margin-left: 50px; */
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: hotpink;
 }
 
+.navbar-light .navbar-brand:hover {
+    color: yellow;
+}
 
-.navbar a:hover {
-    color: green;
+
+.navbar-light .navbar-nav .nav-item a:hover {
+    color: yellow;
 }
 
 .navbar-toggler {
-    background: teal;
+    background: green;
 }
