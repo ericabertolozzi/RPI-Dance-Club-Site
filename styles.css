@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap);
 
 body{
     background: url(pictureicon-textures-patterns-gradients-3-small.png);
@@ -39,4 +39,10 @@ nav {
 
 .navbar-toggler {
     background: #60c0dd;
+}
+
+.jumbotron {
+    background: rgba(0,0,0,0);
+    color: black;
+    font-family: 'Oswald', sans-serif;
 }
