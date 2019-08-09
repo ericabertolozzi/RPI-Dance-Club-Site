@@ -45,25 +45,43 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <center>DANCE CLUB FALL 2019</center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
 
+        <!-- <div class="container" id="emptyspace">
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                </div>
+            </div>
+        </div> -->
+
         <div class="containter" id="about">
             <div class="row">
-                <div class="col">
-                    <center><h4>ABOUT US</h4></center>
-                    <p>The Dance Club offers classes in ballet, contemporary, jazz, tap and hip hop. 
+                <div class="col-sm-12">
+                    <center><h4><b>ABOUT US</b></h4></center>
+                    <center><p>The Dance Club offers classes in ballet, contemporary, jazz, tap and hip hop. 
                         Classes are held weekly during the academic year. 
                         Every spring, we hold a recital in which dancers from each of the
-                        classes perform choreographed numbers. </p>
+                        classes perform choreographed numbers. </p></center>
                 </div>
             </div>
         </div>
 
         <div class="containter" id="info">
             <div class="row justify-content-md-center">
-                <div class="col-sm-6">
-                    <center><h4>MEMBER INFO</h4></center>
+                <div class="col-sm-6 mb-3">
+                    <center><h4><b>MEMBER INFO</b></h4></center>
                     <center>
                         The first week of classes is FREE!</br>
                         For RPI students the semester fee is $65 for unlimited classes.</br>
@@ -71,8 +89,8 @@
                         All classes are held in the upstairs studios at the RPI Mueller Center.</br>
                     </center>
                 </div>
-                <div class="col-sm-6">
-                    <center><h4>ANNOUNCEMENTS</h4></center>
+                <div class="col-sm-6 mb-3">
+                    <center><h4><b>ANNOUNCEMENTS</b></h4></center>
                     <ul class="list-style">
                         <li>Classes start on <b>September 2nd</b>!</li>
                     </ul>
@@ -87,5 +105,20 @@
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script> 
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbarNav");
+
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
     </body>
 </html>
