@@ -4,7 +4,6 @@ body {
     background: url(ex3.jpg) no-repeat center center fixed;
     background-size: cover; 
 
-
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -12,35 +11,29 @@ body {
 
 nav {
     background: transparent;
-    /* margin-right: 50px;
-    margin-top: 15px; */
 }
 
-.navbar-light .navbar-brand {
+.navbar-light a.navbar-brand {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    color: #ffffff;
-    /* margin-left: 50px; */
+    font-size: 32px;
+    color: #bb59f3;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
 }
 
-.navbar-light .navbar-brand:hover {
-    color: #60c0dd;
-}
-
 .navbar-light .navbar-nav .nav-item a:hover {
     color: #60c0dd;
 }
 
-.navbar-light .navbar-nav .active {
-    color: yellow;
+#selected {
+    /* This means when you CLICK on the link */
+    color: #ffff00;
 }
 
 .navbar-toggler {
-    background: #60c0dd;
+    background: #bd6ef1;
 }
 
 .jumbotron {
@@ -58,16 +51,12 @@ nav {
     padding-bottom: 25px;
 }
 
-#aboutus {
+#aboutus, #announcements {
     color: rgb(240, 183, 183);
 }
 
 #memberinfo {
     color: rgb(237, 155, 245);
-}
-
-#announcements {
-    color: rgb(240, 183, 183);
 }
 
 #recitalvideo {
