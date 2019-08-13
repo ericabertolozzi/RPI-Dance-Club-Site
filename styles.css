@@ -9,14 +9,21 @@ body {
     line-height: 1.5em;
 }
 
-nav {
+#navbar {
     background: transparent;
+    overflow: hidden;
+    padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
 }
 
-.navbar-light a.navbar-brand {
+#logo {
     font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    color: #bb59f3;
+    font-size: 28px;
+    color: purple;
 }
 
 .navbar-light .navbar-nav .nav-link {
