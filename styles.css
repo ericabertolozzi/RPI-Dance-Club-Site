@@ -12,18 +12,24 @@ body {
 #navbar {
     background: transparent;
     overflow: hidden;
-    padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
-    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-    position: fixed; /* Sticky/fixed navbar */
+    padding: 50px 10px;
+    transition: 0.4s;
+    position: fixed;
     width: 100%;
-    top: 0; /* At the top */
+    top: 0;
     z-index: 99;
+}
+
+@media (max-width: 991px) {
+    #navbar {
+        background: #2b2a2a;
+    }
 }
 
 #logo {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
-    color: purple;
+    color: #bd20bd;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,27 +37,32 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-item a:hover {
-    color: #60c0dd;
+    color: #bd20bd;
 }
 
 #selected {
-    /* This means when you CLICK on the link */
-    color: #ffff00;
+    color: #F4799E;
 }
 
 .navbar-toggler {
-    background: #bd6ef1;
+    background: #bd20bd;
 }
 
 .jumbotron {
-    background: rgba(0,0,0,0);
-    color: white;
+    background: #00000000;
+    color: #ffffff;
     font-family: 'Lexend Exa', sans-serif;
     font-size: 40px;
 }
 
+@media (max-width: 774px) {
+    .jumbotron {
+        display: none;
+    }
+}
+
 #info {
-    background: rgba(0, 0, 0, 0.568);
+    background: #000000de;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;
@@ -59,20 +70,20 @@ body {
 }
 
 #aboutus, #announcements {
-    color: rgb(240, 183, 183);
+    color: #eb2863;
 }
 
 #memberinfo {
-    color: rgb(237, 155, 245);
+    color: #db6cdb;
 }
 
 #recitalvideo {
-    color: white;
-    background: rgba(0, 0, 0, 0.568);
+    color: #ffffff;
+    background: #000000de;
 }
 
 #copyright {
-    color: rgb(153, 149, 149);
+    color: #999595;
     background: #000000;
     font-family: 'Muli', sans-serif;
     padding-top: 25px;

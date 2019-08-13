@@ -33,9 +33,6 @@
                         <a class="nav-link" href="eboard.html">E-Board</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Photo Gallery</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
@@ -44,7 +41,6 @@
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <br>
                 <br>
                 <br>
                 <br>
@@ -76,14 +72,14 @@
         <div class="containter-fluid" id="info">
             <div class="row justify-content-md-center">
                 <div class="col-sm-4 mb-3" id="aboutus">
-                    <center><h4><b>ABOUT US</b></h4></center>
+                    <center><h4><b><u>ABOUT US</u></b></h4></center>
                     <center><p>The Dance Club offers classes in ballet, contemporary, jazz, tap and hip hop. 
                         Classes are held weekly during the academic year. 
                         Every spring, we hold a recital in which dancers from each of the
                         classes perform choreographed numbers. </p></center>
                 </div>
                 <div class="col-sm-4 mb-3" id="memberinfo">
-                    <center><h4><b>MEMBER INFO</b></h4></center>
+                    <center><h4><b><u>MEMBER INFO</u></b></h4></center>
                     <center>
                         The first week of classes is FREE!</br>
                         For RPI students the semester fee is $65 for unlimited classes.</br>
@@ -93,7 +89,7 @@
                     <br>
                 </div>
                 <div class="col-sm-4 mb-3" id="announcements">
-                    <center><h4><b>ANNOUNCEMENTS</b></h4></center>
+                    <center><h4><b><u>ANNOUNCEMENTS</u></b></h4></center>
                     <ul class="list-style">
                         <li>Classes start on <b>September 2nd</b>!</li>
                     </ul>
@@ -110,7 +106,6 @@
                 <div class="row justify-content-md-center">
                     <div class="col-sm-12">
                         <center>Copyright &#169; 2019 RPI Dance Club</center>
-                        <!--Learn how to embed a video in here-->
                     </div>
                 </div>
         </div>
@@ -118,19 +113,20 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script>
-            window.onscroll = function() {scrollFunction()};
 
+            window.onscroll = function() {scrollFunction()};
+            
             function scrollFunction() {
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
                     document.getElementById("navbar").style.padding = "20px 10px";
                     document.getElementById("logo").style.fontSize = "26px";
-                    document.getElementById("navbar").style.backgroundColor = "gray";
-                    document.getElementById("logo").style.color = "purple";
+                    document.getElementById("navbar").style.backgroundColor = "#2b2a2a";
+                    document.getElementById("logo").style.color = "#bd20bd";
                 } else {
                     document.getElementById("navbar").style.padding = "40px 10px";
                     document.getElementById("logo").style.fontSize = "30px";
                     document.getElementById("navbar").style.backgroundColor = "transparent";
-                    document.getElementById("logo").style.color = "purple";
+                    document.getElementById("logo").style.color = "#bd20bd";
                 }
             }
         </script>
