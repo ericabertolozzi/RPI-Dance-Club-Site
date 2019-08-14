@@ -44,8 +44,8 @@ body {
     color: #F4799E;
 }
 
-.navbar-toggler-icon {
-    border-block-color: #bd20bd;
+.navbar-toggler {
+    background-color: #bd20bd;
 }
 
 .jumbotron {
@@ -70,11 +70,11 @@ body {
 }
 
 #aboutus, #announcements {
-    color: #eb2863;
+    color: #ca41ca;
 }
 
 #memberinfo {
-    color: #db6cdb;
+    color: #eca4ec;
 }
 
 #recitalvideo {
@@ -82,14 +82,26 @@ body {
     background: #000000de;
 }
 
-#copyright {
+footer {
     color: #999595;
     background: #000000;
     font-family: 'Muli', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #000000;
 }
 
 #fees {
-    background: #000000de;
+    background: #000000a2;
+    color: #db6cdb;
+    font-size: 20px;
+}
+
+#class-times {
+    font-family: 'Lexend Exa', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    background: #000000a2;
 }
