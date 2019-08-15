@@ -133,3 +133,8 @@ footer {
     background: #000000a2;
     /* width: 30%; */
 }
+
+#desc_text {
+    font-size: 13px;
+    line-height: 1.2;
+}
