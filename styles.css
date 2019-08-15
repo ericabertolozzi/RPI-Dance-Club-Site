@@ -62,6 +62,11 @@ body {
     }
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 #info {
     background: #000000de;
     padding-left: 50px;
@@ -120,10 +125,6 @@ footer {
     }
 }
 
-.container-fluid {
-    margin: 0;
-}
-
 #class-desc-box {
     display: inline-block;
     text-align: left;
@@ -131,7 +132,8 @@ footer {
     color: #ffffff;
     font-size: 22px;
     background: #000000a2;
-    /* width: 30%; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #desc_text {
