@@ -105,3 +105,15 @@ footer {
     font-size: 22px;
     background: #000000a2;
 }
+
+#class-times-box {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1274px) {
+    #class-times-box {
+        width: 75%;
+    }
+}
