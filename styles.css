@@ -7,6 +7,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -88,7 +89,7 @@ footer {
     font-family: 'Muli', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
-    height: 50px;
+    /* height: 50px; */
     flex-shrink: 0;
     background-color: #000000;
 }
@@ -97,6 +98,7 @@ footer {
     background: #000000a2;
     color: #db6cdb;
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #class-times {
@@ -116,4 +118,8 @@ footer {
     #class-times-box {
         width: 75%;
     }
+}
+
+.container-fluid {
+    margin: 0;
 }
