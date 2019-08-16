@@ -171,18 +171,19 @@ footer {
 
 #off-text-box {
     font-family: 'Lexend Exa', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
     background: #000000d2;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-right: 250px;
     height: 100%;
 }
 
 @media only screen and (max-width: 616px) {
     #instr-text-box {
         padding-left: 5px;
+        padding-right: 0px;
     }
     #instr-photo-box, #off-photo-box {
         text-align: center;
@@ -193,5 +194,11 @@ footer {
     }
     #instr-desc, #off-desc {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #off-text-box {
+        padding-right: 0px;
     }
 }
