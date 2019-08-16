@@ -56,9 +56,16 @@ body {
     font-size: 40px;
 }
 
-@media (max-width: 774px) {
+#instr-empty-space {
+    display: none;
+}
+
+@media only screen and (max-width: 774px) {
     .jumbotron {
         display: none;
+    }
+    #instr-empty-space {
+        display: inline;
     }
 }
 
@@ -94,8 +101,9 @@ footer {
     font-family: 'Muli', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
-    /* height: 50px; */
-    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    height: 80px;
     background-color: #000000;
 }
 
@@ -117,6 +125,7 @@ footer {
     display: inline-block;
     width: 30%;
     text-align: left;
+    overflow: auto;
 }
 
 @media only screen and (max-width: 1274px) {
@@ -134,9 +143,55 @@ footer {
     background: #000000a2;
     padding-left: 10px;
     padding-right: 10px;
+    height: 100%;
 }
 
 #desc_text {
     font-size: 13px;
     line-height: 1.2;
+}
+
+#instr-photo-box, #off-photo-box {
+    text-align: right;
+    background: #000000d2;
+    padding-right: 40px;
+    height: 100%;
+}
+
+#instr-text-box {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background: #000000d2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+#off-text-box {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: #000000d2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 616px) {
+    #instr-text-box {
+        padding-left: 5px;
+    }
+    #instr-photo-box, #off-photo-box {
+        text-align: center;
+        padding-right: 0;
+    }
+    #instr-name, #off-name {
+        text-align: center;
+    }
+    #instr-desc, #off-desc {
+        text-align: center;
+    }
 }

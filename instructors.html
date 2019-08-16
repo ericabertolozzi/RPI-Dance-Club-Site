@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>RPI Dance Club</title>
+        <title>Instructors</title>
         <link rel="icon" href="icon1.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
@@ -48,16 +48,115 @@
             </div>
         </div>
 
+        <div id="instr-empty-space">
+            <br>
+            <br>
+            <br>
+        </div>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="instr-box">
+            <div class="row no-gutters">
+                <div class="col-sm-3">
+                    <div id="instr-photo-box">
+                        <br>
+                        <img src="robin.jpg" alt="Robin" height="150px" width="150px">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div id="instr-text-box">
+                        <div id="instr-name">
+                            <h4><b>ROBIN</b></h4>
+                            <i>Ballet & Jazz Instructor</i><br></div>
+                            <div id="instr-desc">
+                                Robin began Ballet lessons at age four with former Rockette Agnes Reeves. She continued her dance studies adding Jazz, Tap, and Modern. During High School she spent a summer at Jacob's Pillow, where she studied with Lila York, and a semester as an intern for The New York State Theater Institute. She was a teaching assistant at SUNY Buffalo and also at SUNY Albany, where she earned her BA. In addition to teaching for the RPI Dance Club, she has taught for EBA, Robin's Academy of Dance, and the Dance Experience. Her choreography has appeared at EBA's Brave New Dances, The Choreographer's Asylum, Capital Rep's production of Time Warner Cable's Miss/ter Television Pagent, and The Troy Music Hall's Duke Ellington's: Best of the Sacred Symphonies. She currently teaches adaptive dance for Washington, Warren, Albany ARC and Schenectady ARC. She also teaches competition classes at The Dance Experience. 
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-sm-3">
+                    <div id="instr-photo-box">
+                        <br>
+                        <img src="louisa.jpg" alt="Louisa" height="150px" width="150px">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div id="instr-text-box">
+                        <div id="instr-name">
+                            <h4><b>LOUISA</b></h4>
+                            <i>Contemporary Ballet Instructor</i><br></div>
+                            <div id="instr-desc">
+                                Louisa received her early dance training at the Cache Valley Civic Ballet School in her hometown of Logan, Northern Utah. As she progressed, she studied ballet, pointe, partnering, jazz, tap, and modern dance additionally at institutions throughout the country and abroad, such as the Royal Winnipeg Ballet School of Canada, Walnut Hill Conservatory in Boston, MA, North Carolina School of the Arts, Virginia School of the Arts, LINES Ballet in California, the San Francisco Conservatory, and Dance Italia’s summer intensive in Lucca, Italy. After attending the academy division of Ballet West, a well-known professional ballet company based in Salt Lake City, during high school, Louisa went on to study Modern Dance, Choreography, and Performance as she earned her BFA in Dance from New York University’s Tisch School of the Arts in New York City. Upon graduation, Louisa was accepted into the Ellen Sinopoli Professional Dance Company based in Albany, NY, which prompted her move to the Capital Region. She is going into her third season performing with the company, and continues to perform, choreograph, and teach in the upstate New York area.
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-sm-3">
+                    <div id="instr-photo-box">
+                        <br>
+                        <img src="SeanClubPose.jpg" alt="Sean" height="150px" width="150px">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div id="instr-text-box">
+                        <div id="instr-name">
+                            <h4><b>SEAN</b></h4>
+                            <i>Hip Hop Instructor</i><br></div>
+                            <div id="instr-desc">
+                                Sean has choreographed Hip Hop since 2006. He also studied and incorporates both lyrical  and modern styles in his class. He was a former Hip-Hop Aerobics instructor (2009) and is also experienced with Jazz and Creative movement. Break-dancer/Bboy. Sean was a Hip Hop Workshop instructor for The College of Saint Rose Plumeri Complex 2014-2015 and is currently a Hip Hop Instructor for the Saratoga Performing Arts Center National Museum of Dance in Saratoga Springs.
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-sm-3">
+                    <div id="instr-photo-box">
+                        <br>
+                        <img src="Gina.jpg" alt="Gina" height="150px" width="150px">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div id="instr-text-box">
+                        <div id="instr-name">
+                            <h4><b>GINA</b></h4>
+                            <i>Tap Instructor</i><br></div>
+                            <div id="instr-desc">
+                                Gina Grasso has been tapping for 19 years. She grew up taking classes in Schenectady. Then she choreographed and taught classes during her undergraduate time at Yale. Since then she has taken classes in NYC and locally to continue to hone her skills.
+                            </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <center>Copyright &#169; 2019 RPI Dance Club</center>
+        </footer>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            if ($(window).width() > 747) {
+                window.onscroll = function() {scrollFunction()};
+            }
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("navbar").style.padding = "20px 10px";
+                    document.getElementById("logo").style.fontSize = "26px";
+                    document.getElementById("navbar").style.backgroundColor = "#2b2a2a";
+                    document.getElementById("logo").style.color = "#bd20bd";
+                } else {
+                    document.getElementById("navbar").style.padding = "40px 10px";
+                    document.getElementById("logo").style.fontSize = "30px";
+                    document.getElementById("navbar").style.backgroundColor = "transparent";
+                    document.getElementById("logo").style.color = "#bd20bd";
+                }
+            }
+        </script>
     </body>
 </html>
