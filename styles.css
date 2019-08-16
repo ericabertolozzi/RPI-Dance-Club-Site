@@ -151,6 +151,12 @@ footer {
     line-height: 1.2;
 }
 
+@media only screen and (max-width: 991px) {
+    #class-desc-box {
+        text-align: center;
+    }
+}
+
 #instr-photo-box, #off-photo-box {
     text-align: right;
     background: #000000d2;
@@ -201,4 +207,16 @@ footer {
     #off-text-box {
         padding-right: 0px;
     }
+}
+
+#questions {
+    color: #ffffff;
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: center;
+}
+
+#social-media {
+    color: #ffffff;
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: center;
 }
