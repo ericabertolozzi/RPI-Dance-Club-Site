@@ -215,8 +215,46 @@ footer {
     text-align: center;
 }
 
-#social-media {
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    align-content: center;
     color: #ffffff;
-    font-family: 'Lexend Exa', sans-serif;
-    text-align: center;
+    background: #000000c4
+}
+/* 
+.contact-form {
+    
+
+} */
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: green;
+    border-color: transparent;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: aqua;
+    cursor: pointer;
 }

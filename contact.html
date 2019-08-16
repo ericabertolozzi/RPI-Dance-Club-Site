@@ -40,25 +40,29 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6" id="questions">
+                <div class="col-sm-12" id="questions">
                     <br>
                     <br>
                     <br>
                     <br>
                     <br>
-                    <h3>HAVE ANY QUESTIONS?</h3>
-                    <p>Shoot us an email at rpi</p>
-                </div>
-                
-                <div class="col-sm-6" id="social-media">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h3>FIND US ON SOCIAL MEDIA</h3>
+                    <h2>HAVE ANY QUESTIONS?</h2>
+                    <h5>Send us a message with the form below!</h5>
                 </div>
             </div>
+        </div>
+        <div class="contact-form">
+            <center>
+            <form id="contact-form" method="post" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+                <br>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+            </center>
         </div>
         <footer>
             <center>Copyright &#169; 2019 RPI Dance Club</center>
