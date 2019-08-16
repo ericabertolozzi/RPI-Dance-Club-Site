@@ -1,6 +1,6 @@
 <?php
     $name = $_POST['name'];
-    $visitpor_email = $_POST['email'];
+    $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
     $email_from = 'bertoe@rpi.edu'
@@ -17,7 +17,7 @@
 
     $headers .= "Reply-To $visitor_email \r\n";
 
-    mail($to, $email_subject,$email_body,$headers);
+    mail($to, $email_subject, $email_body, $headers);
 
     header("Location: contact.html");
 
