@@ -191,6 +191,7 @@ footer {
     padding-bottom: 10px;
     padding-right: 80px;
     height: 100%;
+    text-align: justify;
 }
 
 #off-text-box {
@@ -202,6 +203,7 @@ footer {
     padding-bottom: 10px;
     padding-right: 250px;
     height: 100%;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 616px) {
