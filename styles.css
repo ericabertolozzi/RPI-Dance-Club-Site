@@ -100,10 +100,12 @@ body {
 
 #aboutus, #announcements {
     color: #ca41ca;
+    text-align: justify;
 }
 
 #memberinfo {
     color: #eca4ec;
+    text-align: justify;
 }
 
 #recitalvideo {
