@@ -21,12 +21,6 @@ body {
     z-index: 99;
 }
 
-@media (max-width: 991px) {
-    #navbar {
-        background: #2b2a2a;
-    }
-}
-
 #logo {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
@@ -55,6 +49,13 @@ body {
     border-color: rgb(202, 65, 202);
 }
 
+.jumbotron {
+    background: #00000000;
+    color: #ffffff;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 40px;
+}
+
 .carousel-caption {
     top: 75px;
     bottom: auto;
@@ -64,12 +65,19 @@ body {
     font-size: 40px;
 }
 
+#jump-to-info {
+    color: white;
+}
+
 #instr-empty-space {
     display: none;
 }
 
 @media only screen and (max-width: 774px) {
     .carousel-caption {
+        display: none;
+    }
+    .jumbotron {
         display: none;
     }
     #instr-empty-space {
@@ -126,7 +134,8 @@ footer {
     height: 80px;
 }
 
-#fees {
+
+#class-location {
     background: #000000a2;
     color: #db6cdb;
     font-size: 20px;
@@ -172,6 +181,9 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+    #navbar {
+        background: #2b2a2a;
+    }
     #class-desc-box {
         text-align: center;
     }

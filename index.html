@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-    <body style="background-color: black;">
+    <body style="background: black;">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <a class="navbar-brand" id="logo"><b>RPI Dance Club</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
         </div> -->
         <div class="carousel-caption">
             <h1>DANCE CLUB FALL 2019</h1>
-            <center>&#10507;</center>
+            <center><a id="jump-to-info" href="#info">&#10507;</a></center>
         </div>
         <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -104,7 +104,6 @@
                     &#9733; The first week of classes is FREE!<br>
                     &#9733; For RPI students the semester fee is $65 for unlimited classes.<br>
                     &#9733; For Non-RPI students the semester fee is $100 for unlimited classes.<br>
-                    &#9733; Payment is due by the end of the second week of classes (September 20th).<br>
                     &#9733; All classes are held in the upstairs studios at the RPI Mueller Center, Room 3.<br>
                     <br>
                 </div>
@@ -112,6 +111,7 @@
                     <center><h4><b><u>ANNOUNCEMENTS</u></b></h4></center>
                         &#9733; Classes start on <b>September 9th.</b><br>
                         &#9733; Classes run from September 9th to December 6th.<br>
+                        &#9733; Payment is due by the end of the second week of classes (September 20th).<br>
                 </div>
             </div>
         </div>
@@ -120,13 +120,16 @@
             <!--Learn how to embed a video in here
         </div>-->
         <footer>
-            <center>Copyright &#169; 2019 RPI Dance Club. Photos by Demetrius Green.</center>
+            <center>Copyright &#169; 2019 RPI Dance Club ~ Photos by Demetrius Green</center>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <div id="scroll-function">
         <script>
-            window.onscroll = function() {scrollFunction()};
+            if ($(window).width() > 747) {
+                window.onscroll = function() {scrollFunction()};
+            }
             
             function scrollFunction() {
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -142,5 +145,6 @@
                 }
             }
         </script>
+        </div>
     </body>
 </html>
