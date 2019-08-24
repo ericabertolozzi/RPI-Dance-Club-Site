@@ -7,9 +7,7 @@
 
     $email_subject = "New Dance Club Contact Form Submission";
 
-    $email_body = "User Name: $name.\n".
-                    "User Email: $visitor_email.\n".
-                        "User Messsage: $message.\n";
+    $email_body = "User Name: $name.\nUser Email: $visitor_email.\nUser Messsage: $message.\n";
     
     $to = "dance_club@lists.rpi.edu";
 
@@ -17,8 +15,8 @@
 
     $headers .= "Reply-To $visitor_email \r\n";
 
-    mail($to, $email_subject, $email_body, $headers);
+    mail($to, $email_subject, $email_body, $headers) or die("Error!");
 
-    header("Location: contact.html");
+    echo "Thank You! Form submitted successfully!" . " -" . "<a href='index.html' style='text-decoration:none;color:#22751f;'> Return Home</a>";
 
 ?>
