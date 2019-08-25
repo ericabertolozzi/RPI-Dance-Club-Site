@@ -151,14 +151,20 @@ footer {
 
 #class-times-box {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     text-align: left;
     overflow: auto;
 }
 
-@media only screen and (max-width: 1274px) {
+@media only screen and (max-width: 1107px) {
     #class-times-box {
-        width: 75%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 612px) {
+    #class-times-box {
+        width: 95%;
     }
 }
 
@@ -184,7 +190,7 @@ footer {
     #navbar {
         background: #2b2a2a;
     }
-    #class-desc-box {
+    #class-desc-box, #italic-text, #desc_text {
         text-align: center;
     }
 }
