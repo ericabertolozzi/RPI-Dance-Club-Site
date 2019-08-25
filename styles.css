@@ -186,6 +186,11 @@ footer {
     text-align: justify;
 }
 
+#beg-adv {
+    color: #db6cdb;
+    display: inline;
+}
+
 @media only screen and (max-width: 991px) {
     #navbar {
         background: #2b2a2a;
