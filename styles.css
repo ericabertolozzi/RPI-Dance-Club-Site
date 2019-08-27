@@ -108,12 +108,12 @@ body {
     }
 }
 
-#aboutus, #announcements {
+#memberinfo, #announcements {
     color: #ca41ca;
     text-align: justify;
 }
 
-#memberinfo {
+#aboutus {
     color: #eca4ec;
     text-align: justify;
 }
