@@ -3,7 +3,7 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'bertoe@rpi.edu'
+    $email_from = 'bertoe@rpi.edu';
 
     $email_subject = "New Dance Club Contact Form Submission";
 

@@ -183,8 +183,7 @@ footer {
     color: #ffffff;
     font-size: 22px;
     background: #00000091;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 100px 200px 0 200px;
     height: 100%;
 }
 
@@ -203,8 +202,12 @@ footer {
     #navbar {
         background: #2b2a2a;
     }
-    #class-desc-box, #italic-text, #desc_text {
+    #italic-text, #desc_text {
         text-align: center;
+    }
+    #class-desc-box {
+        text-align: center;
+        padding: 100px 100px;
     }
 }
 
